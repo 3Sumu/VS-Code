@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Tables in Tables</title>
+        <style>
+            table,td,th{
+                border: solid black 1px;
+            }
+            table{
+                width: 100px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="border: solid black 1px;">
+            <tr>
+                <th>
+                    <table style="width: 300px;">
+                            <tr>
+                                <th colspan="2">Nested Table 2</th>
+                            </tr>
+                            <tr>
+                                <th>Column 1</th>
+                                <th>Column 2</th>
+                            </tr>
+                            <tr>
+                                <td>abc</td>
+                                <td>def</td>
+                            </tr>
+                    </table>
+                </th>
+
+                <th>
+                    <table style="width: 200px;">
+                        <tr>
+                            <th>Nested Table 1</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul style="text-align: left;">
+                                    <li>List item</li>
+                                    <li>List item</li>
+                                    <li>List item</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    <table style="width: 300px;">
+                        <tr>
+                            <th colspan="2">Nested Table 3</th>
+                        </tr>
+                        <tr>
+                            <td><a href="">Nested Table</a></td>
+                            <td>Demo Continued</td>
+                        </tr>
+                    </table>
+                </th>
+
+                <th>
+                    <table style="width: 200px;">
+                        <tr>
+                            <th>Nested Table 4</th>
+                        </tr>
+                        <tr>
+                            <td style="background-color: black; color: white;">HTML</td>
+                        </tr>
+                    </table>
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
