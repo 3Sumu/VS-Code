@@ -1,0 +1,75 @@
+*{
+    background-color:  rgb(144, 163, 112);  
+}
+
+.main-image{
+  text-align: center;
+}
+
+/* Middle heading 1 */
+h1{
+    text-align: center;
+    
+}
+
+.footer{
+    margin: auto;
+    height:600px ;
+    width: 1000px;
+    
+}
+
+/* left part */
+.left-part{
+    width: 240px;
+    float: left;
+    /* margin: auto; */
+    text-align: center;
+}
+.image2{
+    margin: 50px 0 0 0;
+}
+.left-bot-text{
+    text-align: center;
+    /* padding: 0.5em 1em; */
+    margin: 5px 10px;
+}
+
+/* Middle part */
+.middle-part{
+    width: 500px;
+    float: left;
+    text-align: center;
+}
+.middle-top{
+    height: 180px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding-bottom:15px ;
+}
+h2{
+    margin: 10px 0 0 0;
+}
+.middle-bot-text{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
+}
+
+/* Right part */
+.right-part{
+    width: 240px;
+    float: left;
+    text-align: center;
+}
+.image4{
+    margin: 50px 0 0 0;
+}
+.right-bot-text{
+    text-align: center;
+    /* padding: 0.5em; */
+    margin: 5px 10px;
+}
