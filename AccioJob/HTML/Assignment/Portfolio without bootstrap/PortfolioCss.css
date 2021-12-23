@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.top-container{
+    background-color:#A0CFEC;
+    position: relative;
+}
+.top-cloud{
+    position: absolute;
+    top: 2%;
+    right: 20%;
+}
+.bot-cloud{
+   transform: rotate(180deg);
+   position: absolute;
+   top:50%;
+   left: 20%;
+}
+.name, .name-info{
+    text-align: center;
+}
+.name{
+    font-size: 50px;
+    margin: 0;
+    font-family:'Pacifico' ;
+}
+.name-info{
+    font-size: 30px;
+    margin: 0;
+}
+span{
+    font-family:'Arvo';
+    text-decoration: underline;
+}
+.books-png{
+    width: 500px;
+    height: 200px;
+    margin: 5% 0 0 35%;
+}
+.heading{
+    padding: 2em;
+    margin: 5em;
+}
+
+/* Body */
+.middle-container{
+    background-color:  #F5FFFA;
+    margin: 100px 0;
+}
+p{
+    font-size: large;
+    font-family: 'Merriweather';
+    font-weight:  normal;
+    line-height: 2;
+}
+h1{
+    padding-bottom: 1em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h1,h2{
+    color: crimson;
+}
+.intro{
+    padding-bottom: 5em;
+}
+.giphy-embed{
+    float: left;
+}
+.profile-img{
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100em;
+    padding-top: 2em;
+}
+.intro{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.skill-1, .skill-2, .skill-3{
+    width: 600px;
+    margin: 100px auto;
+}
+
+.giphy1{
+    float: left;
+    /* width: 25%; */
+    margin-right: 1em;
+}
+.giphy2{
+    float: right;
+    /* width: 25%; */
+    margin-left: 1em;
+}
+.giphy3{
+    float: left;
+    /* width: 25%; */
+    margin-right: 1em;
+}
+.get-in-touch{
+    text-align: center;
+    width: 600px;
+    margin: 200px auto;
+}
+/* Footer */
+.bottom-container{
+    background-color: #4B5320;
+    padding: 50px 0 30px;
+    text-align: center;
+}
+a{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1.5px;
+}
+a:hover{
+    color: #848B79;
+}
