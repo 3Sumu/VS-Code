@@ -2,49 +2,61 @@
 <html lang="en">
 
 <head>
-  <title>CSS Positions</title>
-  <style>
-    .test{
-      background-color: cyan;
-      margin: 10px;
-      
-      /* width: 200px;
-      height: 200px; */
-      /* display: flex;
-      justify-content: space-evenly; */
-      padding: 2em;
-      text-align: center;
-    }
-  </style>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practise</title>
 </head>
 
 <body>
-  <div class="test" id="edit">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit doloribus ut, dicta et vitae mollitia non laudantium
-    modi eos repudiandae.
-  </div>
-  <button onclick='ChangeText()'>Click here</button>
-  <div class="test" id="edit2">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit doloribus ut, dicta et vitae mollitia non laudantium
-    modi eos repudiandae.
-  </div>
- 
   <script>
- window.prompt('Suman midya ur age')
-   
+    // let a='  suman Is GoOd boy'
+    // let b='i m a good boy'
+    // let c
+
+    // console.log(a.length)
+    // console.log(a.toLowerCase())
+    // console.log(b.toUpperCase())
+    // console.log(a.indexOf('m'))
+    // console.log(a.lastIndexOf('o'))
+    // console.log(a.includes('Goo'))
+    // console.log(a.startsWith('S'))
+    // console.log(a.replace('o', '3'))
+    // console.log(a.replaceAll('o', '3'))
+    // console.log(a.trim())
+    // console.log(a[9])
+    // console.log(a.charCodeAt(5))
+    // console.log(a.indexOf('s', 5))
+    // console.log(a.match(/o/gi))
+    // console.log(a.concat(' '+b))
+    // console.log(a.slice(5 , 9))
+    // console.log(a.split(''))
+    // let arr = []
+    // arr.push(5)
+    // console.log(arr);
+    // arr.push(10)
+    // arr.push(15)
+    // arr.push(21)
+    // console.log(arr);
+
+    let details = {
+      firstName: "Suman",
+      lastName: "Midya",
+      // elements: [5, 7, 14, 2, 47, 52, 16, 20, 91, 27, 83, 66, 45, 3, 22],
+      elements: 81,
+      prime: function () {
+        let arr = [];
+        arr.push(5)
+        console.log(arr);
+        arr.push(15)
+        arr.push(21)
+        arr.push(55)
+        console.log(arr);
+      }
+    }
+    details.prime()
+
   </script>
 </body>
 
 </html>
-
-<!--
-  POSITIONS:
-  1. STATIC
-  2. RELATIVE
-    - W.R.T The immediate parent
-  3. ABSOLUTE
-    - W.R.T The immediate parent which is 'Relative'
-  4. FIXED
-  5. STICKY
--->

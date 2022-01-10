@@ -1,0 +1,38 @@
+.container {
+  max-width: 400px;
+  background-color: burlywood;
+  margin: 10vh auto 5vh auto;
+  box-shadow: 10px 30px 60px 15px black;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+}
+
+.btn {
+  border: 0.5px solid black;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#equals {
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  color: blue;
+  transition: 0.3s ease-in-out;
+}
