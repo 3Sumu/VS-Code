@@ -1,6 +1,7 @@
 let disp = document.getElementById("display");
-// console.log(disp);
-// let button = document.getElementsByClassName("btn");
+console.log(disp);
+
+let button = document.getElementsByClassName("btn");
 console.log("eload");
 
 function isOp(op) {
@@ -18,9 +19,9 @@ function click(clicked) {
     }
   } else {
     if (isOp(clicked) && isOp(disp.innerText[disp.innerText.length - 1])) {
-      disp.innerText += disp.innerText.slice(0, -1);
+      disp.innerText = disp.innerText + disp.innerText.slice(0, -1);
     }
-    disp.innerText += clicked;
+    disp.innerText = disp.innerText + clicked;
   }
 }
 

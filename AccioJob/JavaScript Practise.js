@@ -174,15 +174,15 @@
 // console.log(convertToRoman(798));
 // 1.
 
-let sumanDetails = {
-  name: {
-    firstName: "Suman",
-    lastName: "Midya",
-  },
-  isGraduated: "yes",
-  hobbies: ["Volley", "travel", "Movies"],
-  number: "",
-};
+// let sumanDetails = {
+//   name: {
+//     firstName: "Suman",
+//     lastName: "Midya",
+//   },
+//   isGraduated: "yes",
+//   hobbies: ["Volley", "travel", "Movies"],
+//   number: "",
+// };
 
 // document.getElementById("para1").innerText = JSON.stringify(sumanDetails);
 
@@ -214,8 +214,21 @@ let sumanDetails = {
 
 // console.log(details.prime());
 
-function func(a, b) {
-  console.log(arguments);
-}
+// let arr = [1, 2, 3, 4];
+// let arr1 = [5, 6, 7];
+// let parent = [...arr, ...arr1];
+// console.log(parent);
 
-func(sumanDetails, 15, "babc");
+let inputArray = [
+  { name: "Amber", batch: "Batch 12", likesIceCream: false },
+  { name: "Pratik", batch: "Batch 12", likesIceCream: true },
+  { name: "Charan", batch: "Batch 11", likesIceCream: false },
+  { name: "Dhanashree", batch: "Batch 12", likesIceCream: true },
+  { name: "Anirban", batch: "Batch 10", likesIceCream: false },
+];
+console.log(inputArray[0].name);
+let studentLikeIcecream = inputArray.filter((ele) => {
+  return ele.likesIceCream;
+});
+
+console.log(studentLikeIcecream);
