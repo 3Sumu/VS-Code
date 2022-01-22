@@ -223,12 +223,19 @@ let inputArray = [
   { name: "Amber", batch: "Batch 12", likesIceCream: false },
   { name: "Pratik", batch: "Batch 12", likesIceCream: true },
   { name: "Charan", batch: "Batch 11", likesIceCream: false },
-  { name: "Dhanashree", batch: "Batch 12", likesIceCream: true },
+  { name: "Dhanashree", batch: "Batch 11", likesIceCream: true },
   { name: "Anirban", batch: "Batch 10", likesIceCream: false },
 ];
-console.log(inputArray[0].name);
-let studentLikeIcecream = inputArray.filter((ele) => {
-  return ele.likesIceCream;
+
+// let student = [];
+// inputArray.forEach((ele) => {
+//   if (ele.likesIceCream && ele.batch === "Batch 11") student.push(ele.name);
+// });
+
+let icecream = inputArray.filter((ele) => {
+  // console.log(ele.name);
+  return ele.likesIceCream === true && ele.batch === "Batch 11";
 });
 
-console.log(studentLikeIcecream);
+console.log(icecream);
+console.log(icecream.map((student) => student.name));
