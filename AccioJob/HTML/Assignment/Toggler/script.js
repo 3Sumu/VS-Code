@@ -6,7 +6,6 @@ const fast = document.querySelector("#fast");
 toggles.forEach((toogle) =>
   addEventListener("change", (e) => {
     trans(e.target);
-    console.log(e.target);
   })
 );
 
