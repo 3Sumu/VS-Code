@@ -219,23 +219,35 @@
 // let parent = [...arr, ...arr1];
 // console.log(parent);
 
-let inputArray = [
-  { name: "Amber", batch: "Batch 12", likesIceCream: false },
-  { name: "Pratik", batch: "Batch 12", likesIceCream: true },
-  { name: "Charan", batch: "Batch 11", likesIceCream: false },
-  { name: "Dhanashree", batch: "Batch 11", likesIceCream: true },
-  { name: "Anirban", batch: "Batch 10", likesIceCream: false },
-];
+// let inputArray = [
+//   { name: "Amber", batch: "Batch 12", likesIceCream: false },
+//   { name: "Pratik", batch: "Batch 12", likesIceCream: true },
+//   { name: "Charan", batch: "Batch 11", likesIceCream: false },
+//   { name: "Dhanashree", batch: "Batch 11", likesIceCream: true },
+//   { name: "Anirban", batch: "Batch 10", likesIceCream: false },
+// ];
 
-// let student = [];
-// inputArray.forEach((ele) => {
-//   if (ele.likesIceCream && ele.batch === "Batch 11") student.push(ele.name);
+// // let student = [];
+// // inputArray.forEach((ele) => {
+// //   if (ele.likesIceCream && ele.batch === "Batch 11") student.push(ele.name);
+// // });
+
+// let icecream = inputArray.filter((ele) => {
+//   // console.log(ele.name);
+//   return ele.likesIceCream === true && ele.batch === "Batch 11";
 // });
 
-let icecream = inputArray.filter((ele) => {
-  // console.log(ele.name);
-  return ele.likesIceCream === true && ele.batch === "Batch 11";
-});
+// console.log(icecream);
+// console.log(icecream.map((student) => student.name));
 
-console.log(icecream);
-console.log(icecream.map((student) => student.name));
+// ******************************************
+
+// let bankBalances = [30000, 10000, 50000, 20000, 40000];
+
+// let newBalances = bankBalances.map((value) => {
+//   let str = value + "";
+//   if (str.charAt(0) % 2 === 0) return (20 / 100) * value + value;
+//   else return (35 / 100) * value + value;
+// });
+
+// console.log(newBalances);
