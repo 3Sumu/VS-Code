@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+body {
+  width: 50%;
+  max-width: 750px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Dongle", sans-serif;
+  width: 750px;
+  text-align: center;
+  color: cadetblue;
+  background-color: black;
+  font-size: 50px;
+  margin-top: 10px;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+#wrapper {
+  font-family: "Roboto Slab", serif;
+  background-color: #12aab4;
+  box-sizing: border-box;
+  width: 750px;
+  height: 550px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#guess {
+  font-size: 35px;
+  margin-top: 100px;
+  color: #fff;
+}
+.guesses,
+.lastResult {
+  padding: 7px;
+  color: white;
+}
+
+.guesses {
+  background-color: #12aab4;
+}
+
+#subt {
+  border-style: none;
+  width: 350px;
+  height: 60px;
+  background-color: yellow;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+#guessField {
+  color: #000;
+  border-style: none;
+  font-size: 50px;
+  border: 5px solid #14727d;
+  height: 80px;
+  width: 500px;
+  text-align: center;
+  cursor: text;
+}
+
+button {
+  background-color: purple;
+  color: #fff;
+  border-style: none;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  margin: 30px;
+}
