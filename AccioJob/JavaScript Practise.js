@@ -244,10 +244,87 @@
 
 // let bankBalances = [30000, 10000, 50000, 20000, 40000];
 
-// let newBalances = bankBalances.map((value) => {
-//   let str = value + "";
-//   if (str.charAt(0) % 2 === 0) return (20 / 100) * value + value;
-//   else return (35 / 100) * value + value;
-// });
+// let newBalances = bankBalances.map((value) =>
+//   String(value)[0] % 2 === 0 ? 0.2 * value + value : 0.35 * value + value
+// );
 
 // console.log(newBalances);
+
+// ******************************************
+//missing ele in array
+// let arr = [1, 3, 4, 2, 0];
+// let max = Math.max(...arr);
+// let sum = 0;
+// for (i = 1; i <= max; i++) sum += i;
+// console.log(sum - arr.reduce((total, ele) => total + ele));
+
+// let missing = () => {
+//   for (i = 0; i <= Math.max(...arr); i++) {
+//     if (arr.sort((a, b) => a - b)[i] !== i) return i;
+//   }
+// };
+// console.log(missing());
+// ******************************************
+
+let students = [
+  {
+    name: "John",
+    batch: "Batch 11",
+    marks: {
+      english: "38",
+      maths: "72",
+      science: "82",
+      hindi: "21",
+      social: "48",
+    },
+  },
+  {
+    name: "Sita",
+    batch: "Batch 12",
+    marks: {
+      english: "74",
+      maths: "82",
+      science: "32",
+      hindi: "42",
+      social: "28",
+    },
+  },
+  {
+    name: "Shyam",
+    batch: "Batch 13",
+    marks: {
+      english: "28",
+      maths: "92",
+      science: "63",
+      hindi: "81",
+      social: "61",
+    },
+  },
+];
+let array = ["english", "maths", "science", "hindi", "social"];
+
+students.map((ele) => {
+  console.log(Object.keys);
+  console.log(ele.marks.names);
+  // let mark = [...ele.marks];
+  // console.log(mark);
+  mark.forEach((value) => {
+    //console.log(value);
+  });
+});
+
+// students.forEach((element, index) => {
+//   // console.log(element);
+//   let sub = array[0];
+//   console.log(element[index].sub);
+// });
+//console.log(Object.keys(students[0].marks));
+// let name = Object.keys(students[0].marks);
+// console.log(name);
+// console.log(students[0].name[0]);
+// for (x of students[0]["marks"]) {
+//   console.log(x);
+//   // let sum = 0;
+//   // sum += x;
+//   // console.log(sum);
+// }
