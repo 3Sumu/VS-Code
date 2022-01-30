@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 30px;
+  color: blue;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.balloon-container {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.balloon {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.zero-balloon {
+  width: 700px;
+  font-size: 60px;
+  color: red;
+  display: none;
+  /* text-align: left; */
+}

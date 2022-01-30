@@ -301,30 +301,11 @@ let students = [
     },
   },
 ];
-let array = ["english", "maths", "science", "hindi", "social"];
 
-students.map((ele) => {
-  console.log(Object.keys);
-  console.log(ele.marks.names);
-  // let mark = [...ele.marks];
-  // console.log(mark);
-  mark.forEach((value) => {
-    //console.log(value);
-  });
+let sum = students.map((ele) => {
+  let mark = Object.values(ele.marks);
+  return mark.reduce((total, numer) => {
+    return total + Number(numer);
+  }, 0);
 });
-
-// students.forEach((element, index) => {
-//   // console.log(element);
-//   let sub = array[0];
-//   console.log(element[index].sub);
-// });
-//console.log(Object.keys(students[0].marks));
-// let name = Object.keys(students[0].marks);
-// console.log(name);
-// console.log(students[0].name[0]);
-// for (x of students[0]["marks"]) {
-//   console.log(x);
-//   // let sum = 0;
-//   // sum += x;
-//   // console.log(sum);
-// }
+console.log(sum);
