@@ -300,12 +300,31 @@ let students = [
       social: "61",
     },
   },
+  {
+    name: "Lakshman",
+    batch: "Batch 14",
+    marks: {
+      english: "48",
+      maths: "83",
+      science: "63",
+      hindi: "71",
+      social: "63",
+    },
+  },
 ];
 
-let sum = students.map((ele) => {
+// let sum = students.map((ele) => {
+//   let mark = Object.values(ele.marks);
+//   return mark.reduce((total, numer) => {
+//     return total + Number(numer);
+//   }, 0);
+// });
+// console.log(sum);
+
+let names = [];
+students.forEach((ele) => {
   let mark = Object.values(ele.marks);
-  return mark.reduce((total, numer) => {
-    return total + Number(numer);
-  }, 0);
+  mark.every((value) => value > 30) ? names.push(ele.name) : "";
 });
-console.log(sum);
+
+console.log(names);
