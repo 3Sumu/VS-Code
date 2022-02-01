@@ -28,7 +28,21 @@
 </head>
 
 <body>
+    <input type="text" id='email'>
+    <button type="submit" id='submit'>Submit</button>
 
+    <script>
+        const email = document.getElementById('email')
+        const submit = document.getElementById('submit')
+
+        submit.addEventListener('click', () => {
+            let text = email.value
+            console.log(text);
+            if (text.includes('@') && text.includes('.com')) window.alert('Valid Email')
+
+            else window.alert('Invalid Email')
+        })
+    </script>
 </body>
 
 </html>

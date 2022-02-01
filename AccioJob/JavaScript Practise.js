@@ -266,52 +266,52 @@
 // console.log(missing());
 // ******************************************
 
-let students = [
-  {
-    name: "John",
-    batch: "Batch 11",
-    marks: {
-      english: "38",
-      maths: "72",
-      science: "82",
-      hindi: "21",
-      social: "48",
-    },
-  },
-  {
-    name: "Sita",
-    batch: "Batch 12",
-    marks: {
-      english: "74",
-      maths: "82",
-      science: "32",
-      hindi: "42",
-      social: "28",
-    },
-  },
-  {
-    name: "Shyam",
-    batch: "Batch 13",
-    marks: {
-      english: "28",
-      maths: "92",
-      science: "63",
-      hindi: "81",
-      social: "61",
-    },
-  },
-  {
-    name: "Lakshman",
-    batch: "Batch 14",
-    marks: {
-      english: "48",
-      maths: "83",
-      science: "63",
-      hindi: "71",
-      social: "63",
-    },
-  },
-];
+// let students = [
+//   {
+//     name: "John",
+//     batch: "Batch 11",
+//     marks: {
+//       english: "38",
+//       maths: "72",
+//       science: "82",
+//       hindi: "21",
+//       social: "48",
+//     },
+//   },
+//   {
+//     name: "Sita",
+//     batch: "Batch 12",
+//     marks: {
+//       english: "74",
+//       maths: "82",
+//       science: "32",
+//       hindi: "42",
+//       social: "28",
+//     },
+//   },
+//   {
+//     name: "Shyam",
+//     batch: "Batch 13",
+//     marks: {
+//       english: "28",
+//       maths: "92",
+//       science: "63",
+//       hindi: "81",
+//       social: "61",
+//     },
+//   },
+//   {
+//     name: "Lakshman",
+//     batch: "Batch 14",
+//     marks: {
+//       english: "48",
+//       maths: "83",
+//       science: "63",
+//       hindi: "71",
+//       social: "63",
+//     },
+//   },
+// ];
 
 // let sum = students.map((ele) => {
 //   let mark = Object.values(ele.marks);
@@ -321,10 +321,16 @@ let students = [
 // });
 // console.log(sum);
 
-let names = [];
-students.forEach((ele) => {
-  let mark = Object.values(ele.marks);
-  mark.every((value) => value > 30) ? names.push(ele.name) : "";
-});
+// let names = [];
+// students.forEach((ele) => {
+//   let mark = Object.values(ele.marks);
+//   mark.every((value) => value > 30) ? names.push(ele.name) : "";
+// });
 
-console.log(names);
+// console.log(names);
+let item = [6000, 4000, 5000, 7000];
+for (let items of item) {
+  setTimeout(() => {
+    console.log(items);
+  }, item);
+}
