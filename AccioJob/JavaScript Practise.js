@@ -328,9 +328,8 @@
 // });
 
 // console.log(names);
-let item = [6000, 4000, 5000, 7000];
-for (let items of item) {
-  setTimeout(() => {
-    console.log(items);
-  }, item);
-}
+
+let text = "suman midya";
+text.split("").forEach((char) => {
+  console.log(char.charCodeAt());
+});

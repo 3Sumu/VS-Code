@@ -24,24 +24,42 @@
 
     </script>
 
-
+    <style>
+        .red {
+            font-size: 15px;
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
-    <input type="text" id='email'>
-    <button type="submit" id='submit'>Submit</button>
-
+    <form>
+        <input type="text" id='email'>
+        <button type="submit" id='submit'>Submit</button>
+    </form>
+    <div class="red"></div>
     <script>
         const email = document.getElementById('email')
         const submit = document.getElementById('submit')
+        const msg = document.querySelector('.red')
 
-        submit.addEventListener('click', () => {
+        submit.addEventListener('click', (e) => {
             let text = email.value
-            if (text.includes('@') && (text.includes('.com') || text.includes('.net') || text.includes('.com')))
-                window.alert('Valid Email')
+            e.preventDefault()
+            if (text.indexOf('@') === -1) msg.innerText = `Invalid Email`
+            if (text.length - text.indexOf('.') <= 2 || text.indexOf('.') === -1) msg.innerText = 'Invalid Email, There should be two character after "."'
+            if (text.indexOf('@') < 1) msg.innerText = 'Invalid Email, Atleast one character required before "@"'
+            if (text.indexOf(' ') !== -1) msg.innerText = 'Invalid Email, Spacing is not allowed in between'
 
-            else window.alert('Invalid Email')
+            if ((text.split('').forEach((char) => {
+                if (char.charCodeAt() >= 65 && char.charCodeAt() <= 90 && char.charCodeAt() >= 97 && char.charCodeAt() <= 122) return true
+            }))) msg.innerText = 'Invalid Email, Spacing is not allowed in between'
+
+            else msg.innerText = 'Valid Email'
+
         })
+
+
     </script>
 </body>
 

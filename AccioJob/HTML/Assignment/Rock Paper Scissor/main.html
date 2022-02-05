@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2c6133bcaa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="text-center mt-3 alert alert-primary">
+        <h1>
+            WELCOME TO ROCK PAPER SCISSORS GAME!
+        </h1>
+    </div>
+
+    <div class="text-center h5" id="message"></div>
+
+    <div class="text-center m-3" id="start">
+        <input type="submit" class="btn btn-dark" id="submit" value="Get Started">
+    </div>
+
+    <div class="boards" id="boards">
+        <div class="row">
+            <div class="col-6 text-center">
+                <h1 class="text-center my-3">Player 1</h1>
+
+                <div id="playerSide">
+                    <h3 id='playerScore'></h3>
+                    <div id="playerSelect"></div>
+                </div>
+            </div>
+            <div class="col-6 text-center">
+                <h1 class="text-center my-3">Computer</h1>
+
+                <div id="computerSide">
+                    <h3 id='computerScore'></h3>
+                    <div id="computerSelect"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="select" class="text-center w-50 mx-auto select">
+        <div class="row">
+            <div id="rock" class="col-4">
+                <i class="fas fa-hand-rock"></i>
+            </div>
+            <div id="paper" class="col-4">
+                <i class="fas fa-hand-paper"></i>
+            </div>
+            <div id="scissors" class="col-4">
+                <i class="fas fa-hand-scissors"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
