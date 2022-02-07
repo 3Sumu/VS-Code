@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  font-family: "Permanent Marker";
+  margin: 15px 0;
+  color: brown;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.message {
+  font-family: "Permanent Marker";
+}
+
+.details {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  font-weight: bolder;
+  font-size: 20px;
+  color: blue;
+}
+
+input {
+  margin: 0 0 10px 5px;
+  padding: 4px 10px;
+  font-size: 20px;
+  border: 2px solid #000;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid red;
+}
+
+button {
+  width: 250px;
+  border: 2px solid black;
+  padding: 10px 5px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin: 20px 0 50px 0;
+  background-color: lightgrey;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+button:focus,
+button:active,
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.game {
+  flex-wrap: wrap;
+  background-color: pink;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+}
+
+.game-slot {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Permanent Marker";
+  font-size: 40px;
+}
