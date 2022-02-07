@@ -5,32 +5,37 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("./Tic\ tac\ toe.jpg");
+}
+
 .container {
-  text-align: center;
+  text-align: left;
 }
 
 .header {
   font-family: "Permanent Marker";
-  margin: 15px 0;
-  color: brown;
-  font-size: 40px;
-  margin-bottom: 40px;
+  margin: 10px 0px 40px 100px;
+  color: rgb(100, 252, 244);
+  font-size: 70px;
 }
 
 .message {
   font-family: "Permanent Marker";
+  color: yellow;
+  margin: 5px 150px;
 }
 
 .details {
-  width: 80%;
-  margin: 0 auto;
+  width: 40%;
+  margin: 0 50px;
   text-align: center;
 }
 
 label {
   font-weight: bolder;
   font-size: 20px;
-  color: blue;
+  color: rgb(250, 250, 250);
 }
 
 input {
@@ -69,8 +74,8 @@ button:hover {
   background-color: pink;
   height: 300px;
   width: 300px;
-  text-align: center;
-  margin: 0 auto;
+  /* text-align: center; */
+  margin: 0 150px;
   display: none;
 }
 
