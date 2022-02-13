@@ -20,7 +20,6 @@ async function renderNewQuote() {
   quoteInputElement.value = null;
   startTimer();
 }
-
 renderNewQuote();
 
 let startTime;
