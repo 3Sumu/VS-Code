@@ -20,7 +20,14 @@ async function renderNewQuote() {
   quoteInputElement.value = null;
   startTimer();
 }
-renderNewQuote();
+
+document.getElementById("button").addEventListener("click", () => {
+  document.getElementById("info").style.display = "none";
+  renderNewQuote();
+  document.querySelector(".container").style.display = "block";
+  timerElement.style.display = "block";
+  document.querySelector(".last").style.display = "block";
+});
 
 let startTime;
 function startTimer() {
@@ -57,4 +64,8 @@ quoteInputElement.addEventListener("input", () => {
     }
   });
   if (correct) renderNewQuote();
+});
+
+document.getElementById("end").addEventListener("click", (e) => {
+  location.reload();
 });
