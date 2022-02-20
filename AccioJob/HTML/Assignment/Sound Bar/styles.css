@@ -3,8 +3,8 @@ body {
 }
 .container {
   background-color: black;
-  width: 210vh;
-  height: 300vh;
+  width: 100vw;
+  height: 200vh;
 }
 
 #music {
@@ -31,6 +31,12 @@ body {
   margin: 10px auto;
 }
 
+p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  color: burlywood;
+}
 .btn {
   width: 190px;
   height: 50px;
