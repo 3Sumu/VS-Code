@@ -1,7 +1,14 @@
 import "./App.css";
+import Component1 from "./components/Component1";
+import Component2 from "./components/Component2";
 
 function App() {
-  return <div className="App">This the first react app</div>;
+  return (
+<div className="App">
+  <Component1/>
+ <Component2/>
+ </div>
+  );
 }
 
 export default App;
