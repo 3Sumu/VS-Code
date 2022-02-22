@@ -1,14 +1,17 @@
 import React from "react";
 import Developer from "./Devloper";
+import './Component1.css'
 
-function Component1(){
-return (
+function Component1() {
+  return (
     <div className="Component1">
-<h1>Heading1</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae reprehenderit cum ducimus ipsum numquam blanditiis velit nihil iusto animi consequuntur, cupiditate, ipsam eos cumque, iure sed et incidunt iste illo labore. Iste impedit eaque porro sapiente dolorum ad dolor obcaecati dolorem eligendi aspernatur deleniti omnis animi, recusandae pariatur incidunt distinctio voluptate, eveniet quas suscipit saepe! Suscipit debitis animi porro rerum consequatur. Minima eos ipsa quod neque saepe labore quia. Nulla error dicta deleniti maxime laboriosam esse dolorem repudiandae deserunt consequatur doloribus sunt veritatis eius quae harum cupiditate ea explicabo, ducimus, voluptatibus, quaerat atque ratione tempora. Voluptas, distinctio libero est nam commodi quam doloribus rerum praesentium deserunt, eius suscipit facilis officiis, tempora laborum. Recusandae perferendis suscipit cumque. Deserunt distinctio iste natus nihil, quas a, doloribus assumenda quod obcaecati amet aspernatur. Repellendus illo animi dignissimos possimus est ipsum iusto nisi. Distinctio nesciunt quisquam inventore ex veniam tenetur, dignissimos repudiandae quae architecto eaque molestias animi magni impedit sapiente dolore aperiam maxime fugit voluptatum tempore perferendis in libero doloribus vero hic. Vel perspiciatis ad et fugit? Modi suscipit necessitatibus dolor consectetur ab, aperiam ratione minima distinctio. Labore maiores facere, voluptate autem, consectetur eos error est quas eius alias delectus sit explicabo id animi perspiciatis saepe. Soluta voluptatem, quia sint deserunt minus dicta aspernatur tempora impedit molestias est, modi obcaecati. Ipsum nemo at aperiam, consectetur recusandae, rerum enim quam, quae voluptas eveniet earum id! Eligendi reiciendis rerum officia doloremque quidem. Vero magnam libero nemo commodi maxime perspiciatis rerum reiciendis eos illo odit? Ab ducimus officiis minus? Perferendis officiis culpa rem obcaecati illo itaque vel, placeat nobis alias molestias, recusandae dolore mollitia accusamus quisquam consequatur iure dignissimos neque perspiciatis qui odio quasi? Magni molestias eum repellat ipsam ex esse assumenda. Voluptatibus, exercitationem reiciendis molestias ullam dolorum deserunt, quasi sint sit adipisci tempore aut culpa, id iusto architecto optio deleniti libero tempora. Voluptatum sit, possimus libero deleniti labore rem debitis aliquam voluptate ipsa officia. Dolorum cum est commodi. Inventore minus cum accusamus veniam sequi, sint illum repudiandae eos animi, incidunt, illo in laboriosam maiores aut reprehenderit ab earum natus enim quasi nesciunt? Molestias, quam sint laboriosam voluptatibus placeat fuga officia voluptate, numquam reprehenderit ducimus aliquam ipsum? Ipsam unde, neque voluptate at animi ad ducimus tenetur enim dicta, dolores similique facilis itaque ut debitis obcaecati quod quisquam totam deserunt harum autem. Consequuntur accusamus sit sunt adipisci illum itaque nostrum tenetur! Cum pariatur perspiciatis asperiores saepe iusto ab deserunt ipsam explicabo quis nulla, voluptatibus ut dolor minima ullam eius ipsa, illum doloribus magni? Numquam provident tenetur ad doloremque aliquid. A dolorem cum dolores, veritatis ullam provident. Eos tenetur eum tempora recusandae vitae, ab debitis corporis eius necessitatibus! Voluptates suscipit necessitatibus impedit alias, repudiandae dolorem minus omnis maiores blanditiis soluta explicabo ut temporibus eveniet tenetur nihil modi, culpa quo quasi? Esse molestias similique voluptas culpa optio quas itaque sequi sed eius. Amet eum libero rem fuga laudantium vero ipsam. Reiciendis et magnam velit, optio obcaecati doloribus laudantium magni ipsam iure blanditiis molestiae facere libero sequi minus id alias maxime iste.</p>
-   <Developer/>
+      <h1>Heading1</h1>
+      <p>
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit a ut impedit placeat, dolore, ex, quod voluptatem fuga doloremque id maiores esse odit sint. Alias laudantium accusantium sed modi, nihil fuga iusto quos qui numquam iste minima corporis quas facere accusamus provident facilis ducimus, optio tempore eveniet culpa animi vel in! Aperiam eligendi necessitatibus labore, impedit delectus harum perspiciatis nulla accusantium corrupti! Reiciendis fuga velit minima ad dolores, quis nihil placeat voluptatibus! A nobis veniam dolor sint. Aut, temporibus unde!
+      </p>
+      <Developer />
     </div>
-)
+  );
 }
 
-export default Component1
+export default Component1;

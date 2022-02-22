@@ -4,10 +4,10 @@ import Component2 from "./components/Component2";
 
 function App() {
   return (
-<div className="App">
-  <Component1/>
- <Component2/>
- </div>
+    <div className="App">
+      <Component1 />
+      <Component2 />
+    </div>
   );
 }
 
