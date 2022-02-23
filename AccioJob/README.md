@@ -1,15 +1,10 @@
-# My Booklist
+# Frontend Development
 
-App to add & store your book details.
+Samll projects r made during on going training sessions.
 
-## Links
+## Acknowledgements
 
-- [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Assignment/My%20Booklist/main.html)
-- [Code Link](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Assignment/My%20Booklist)
-
-## 🛠 Skills
-
-Javascript, HTML, CSS...
+The projects discussed in this repo are taken from various sources and the rights to them belongs to their respective owners only. This repo is just a way for practise and learn web technologies like HTML, CSS, Bootstrap and Javascript.
 
 |                                                       Name                                                        | Description                                                         | Live Demo                                                                                                  |
 | :---------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
