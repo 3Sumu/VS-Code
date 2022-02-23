@@ -11,4 +11,5 @@ App to add & store your book details.
 
 Javascript, HTML, CSS...
 
-| Name | Description | Live Demo |
+| Date | Project | Live Demo |
+| :--: | ------- | --------- |
