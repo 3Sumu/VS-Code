@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>Vertical Slider</title>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <audio src="./তুমি হাসলে আমার ঠোটে হাসি❤ Tumi hasle amar thote hasi❤(MP3_128K).mp3" id="tomake"></audio>
     <div class="slider-container">
 
         <div class="left-slide">
@@ -128,7 +128,14 @@
             </button>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <audio src="./তুমি হাসলে আমার ঠোটে হাসি❤ Tumi hasle amar thote hasi❤(MP3_128K).mp3" id="my_audio"
+        loop="loop"></audio>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("my_audio").play();
+        }
+    </script>
 </body>
 
 </html>
