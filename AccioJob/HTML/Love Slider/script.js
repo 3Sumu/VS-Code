@@ -12,6 +12,9 @@ let activeSlideIndex = 0;
 
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
 
+window.addEventListener("load", () => {
+  document.getElementById("tomake").play();
+});
 upButton.addEventListener("click", () => changeSlide("up"));
 downButton.addEventListener("click", () => changeSlide("down"));
 
@@ -35,7 +38,3 @@ const changeSlide = (direction) => {
     activeSlideIndex * sliderHeight
   }px)`;
 };
-
-window.addEventListener("load", () => {
-  document.getElementById("tomake").play();
-});
