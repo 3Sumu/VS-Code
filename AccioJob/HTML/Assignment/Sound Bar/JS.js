@@ -1,7 +1,10 @@
 let buttons = Array.from(document.querySelectorAll(".btn"));
-//console.log(buttons);
+console.log(buttons);
 
-buttons.forEach((song) => playSound(song));
+buttons.forEach((song) => {
+  console.log(song);
+  playSound(song);
+});
 
 function playSound(songName) {
   console.log("playsound");
