@@ -2,6 +2,7 @@ const sliderContainer = document.querySelector(".slider-container");
 
 const slideRight = document.querySelector(".right-slide");
 const slideLeft = document.querySelector(".left-slide");
+const song = document.getElementById("tomake");
 
 const upButton = document.querySelector(".up-button");
 const downButton = document.querySelector(".down-button");
@@ -13,8 +14,16 @@ let activeSlideIndex = 0;
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
 
 window.addEventListener("load", () => {
-  document.getElementById("tomake").play();
+  song.play();
+  replay(song);
 });
+
+function replay(songs) {
+  if (songs.currentTime === 0) {
+    songs.play();
+  }
+}
+
 upButton.addEventListener("click", () => changeSlide("up"));
 downButton.addEventListener("click", () => changeSlide("down"));
 
