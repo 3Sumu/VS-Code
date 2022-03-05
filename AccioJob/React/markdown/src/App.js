@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactMarkdown from "react-markdown";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      markdown: "",
+      loading: true,
+    };
+    this.handleChange = this.handleChange.bind(this);
+    this.changeLoadingVar = this.changeLoadingVar.bind(this);
+  }
+  handleChange(e) {
+    this.setState({
+      markdown: e.target.value,
+    });
+  }
+  changeLoadingVar() {
+    this.setState({
+      loading: false,
+    });
+  }
+
+  componentDidMount() {
+    setTimeout(this.changeLoadingVar, 3000);
+  }
+  render() {
+    if (this.state.loading) {
+      return (
+        <div>
+          <h1>Loading...</h1>
+        </div>
+      );
+    }
+
+    return (
+      <div className="app">
+        <textarea onChange={this.handleChange} />
+        <ReactMarkdown className="preview" children={this.state.markdown} />
+      </div>
+    );
+  }
 }
 
 export default App;
