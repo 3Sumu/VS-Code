@@ -11,15 +11,11 @@ const DesignNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link>
-              <Link className="router-link" to="/">
-                Home Page
-              </Link>
+            <Nav.Link as={Link} to="/">
+              Home Page
             </Nav.Link>
-            <Nav.Link>
-              <Link className="router-link" to="/posts">
-                Posts
-              </Link>
+            <Nav.Link as={Link} to="/posts">
+              Posts
             </Nav.Link>
             <NavDropdown title="More Option" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
