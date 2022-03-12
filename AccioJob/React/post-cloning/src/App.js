@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Posts from "./Component/Posts/Posts";
 import LoginPage from "./Component/LoginPage/LoginPage";
 import SinglePost from "./Component/SinglePost/SinglePost";
+import Error404 from "./Component/Error404/Error404";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <DesignNavbar />
       <Container className="app-container">
         <Routes>
-          <Route path="/" element={<LoginPage />}></Route>
-          <Route path="/posts" element={<Posts />}></Route>
-          <Route path="/posts/:id" element={<SinglePost />}></Route>
+          <Route path="/" element={<LoginPage />} />
+          <Route path="/posts" element={<Posts />} />
+          <Route path="/posts/:id" element={<SinglePost />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </Container>
     </BrowserRouter>

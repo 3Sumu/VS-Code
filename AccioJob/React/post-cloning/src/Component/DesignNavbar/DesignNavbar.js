@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Navbar, NavDropdown, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./DesignNavbar.css";
 
 const DesignNavbar = () => {
@@ -11,10 +11,18 @@ const DesignNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">
+            <Nav.Link
+              as={NavLink}
+              to="/"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
               Home Page
             </Nav.Link>
-            <Nav.Link as={Link} to="/posts">
+            <Nav.Link
+              as={NavLink}
+              to="/posts"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
               Posts
             </Nav.Link>
             <NavDropdown title="More Option" id="collasible-nav-dropdown">

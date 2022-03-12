@@ -2,6 +2,6 @@
   text-decoration: none;
   color: inherit;
 }
-.router-link:hover {
-  color: inherit;
+.active {
+  color: yellow;
 }
