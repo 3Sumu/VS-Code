@@ -25,6 +25,13 @@ const DesignNavbar = () => {
             >
               Posts
             </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/count"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              Count
+            </Nav.Link>
             <NavDropdown title="More Option" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

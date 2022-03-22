@@ -61,12 +61,8 @@ const rootReducer = combineReducers({
 // Store
 const store = createStore(rootReducer, applyMiddleware(createLogger()));
 const unsubscribe = store.subscribe(() => {});
-console.log(store.getState());
 store.dispatch(addPost("Thailand"));
-console.log(store.getState());
 store.dispatch(addPost("Argentina"));
 store.dispatch(incrementFollower());
-console.log(store.getState());
 store.dispatch(incrementFollower());
-console.log(store.getState());
 unsubscribe();

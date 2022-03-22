@@ -7,20 +7,26 @@ import Posts from "./Component/Posts/Posts";
 import LoginPage from "./Component/LoginPage/LoginPage";
 import SinglePost from "./Component/SinglePost/SinglePost";
 import Error404 from "./Component/Error404/Error404";
+import Count from "./Component/Count";
+import { Provider } from "react-redux";
+import store from "./Redux/store";
 
 function App() {
   return (
-    <BrowserRouter>
-      <DesignNavbar />
-      <Container className="app-container">
-        <Routes>
-          <Route path="/" element={<LoginPage />} />
-          <Route path="/posts" element={<Posts />} />
-          <Route path="/posts/:id" element={<SinglePost />} />
-          <Route path="*" element={<Error404 />} />
-        </Routes>
-      </Container>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <DesignNavbar />
+        <Container className="app-container">
+          <Routes>
+            <Route path="/" element={<LoginPage />} />
+            <Route path="/posts" element={<Posts />} />
+            <Route path="/posts/:id" element={<SinglePost />} />
+            <Route path="/count" element={<Count />} />
+            <Route path="*" element={<Error404 />} />
+          </Routes>
+        </Container>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
