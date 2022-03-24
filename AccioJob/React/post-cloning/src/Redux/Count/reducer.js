@@ -1,4 +1,4 @@
-import { INCREMENT_COUNTER } from "./action";
+import { INCREMENT_COUNTER, DECREMENT_COUNTER } from "./action";
 
 const initialState = {
   count: 0,
@@ -9,7 +9,12 @@ const countReducer = (state = initialState, action) => {
     case INCREMENT_COUNTER:
       return {
         ...state,
-        count: state.count + 1,
+        count: state.count + action.payload,
+      };
+    case DECREMENT_COUNTER:
+      return {
+        ...state,
+        count: state.count - action.payload,
       };
 
     default:
