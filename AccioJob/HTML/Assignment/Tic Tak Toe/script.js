@@ -29,9 +29,8 @@ function initializeGame() {
     div.addEventListener("click", function () {
       if (!div.innerText && playGame) {
         div.innerText = activePlayer === 0 ? "x" : "o";
-        let winner = checkWinner();
-
-        if (!winner) {
+        let winnerBool = checkWinner();
+        if (!winnerBool) {
           updateActivePlayer();
           showMessage(`${activePlayer === 0 ? player1 : player2}, you are up`);
         } else {
@@ -42,6 +41,11 @@ function initializeGame() {
             location.reload();
           }, 4000);
         }
+      } else {
+        showMessage(`Match Draw!`);
+        setTimeout(() => {
+          location.reload();
+        }, 4000);
       }
     });
     game.appendChild(div);
@@ -62,6 +66,21 @@ winningSequences = [
   [0, 4, 8],
   [2, 4, 6],
 ];
+
+// function blankSpaceLeft() {
+//   for (let i = 1; i <= 9; i++) {
+//     const blankOrNOt = document.getElementById(i).innerText;
+//     const arr = [1, 1, 1, 1, 1, 1, 1, 1, 1];
+//     if (blankOrNOt !== "") {
+//       arr.pop();
+//       console.log(arr.length);
+//       // setTimeout(() => {
+//       //   location.reload();
+//       // }, 4000);
+//     }
+//     if (arr.length === 0) console.log("match draw");
+//   }
+// }
 
 function checkWinner() {
   let winnerBool = false;
@@ -85,13 +104,8 @@ function checkWinner() {
       cell3.style.backgroundColor = "green";
       break;
     }
-    if (i == winningSequences.length) {
-      showMessage(`Match Draw!`);
-      setTimeout(() => {
-        location.reload();
-      }, 4000);
-    }
   }
+
   return winnerBool;
 }
 
