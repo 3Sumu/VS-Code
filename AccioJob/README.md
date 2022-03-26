@@ -27,5 +27,6 @@ The projects discussed in this repo are taken from various sources and the right
 | [Customer Auto Slider](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/React/auto-slide-customer) | Automatic slider of customer review section (React) | [Live Demo](https://auto-slider-react-app.netlify.app) |
 | [pseudo Template Texts](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/React/pseudo-texts) | Generate pseudo texts for any generalize use (React) | [Live Demo](https://pseudo-texts-react-app.netlify.app) |
 | [Basic React Calculator](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/React/react-calculator) | Basic react calculator to calculate any expression (React) | [Live Demo](https://react-basic-calculator-app.netlify.app) |
+| [Post Cloning](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/React/post-cloning) | Created a demo app to learn the concepts of React Bootstrap,React-Router,Redux(Logger,Reducer,Action,Store,Middleware,Thunk) (React,Redux) | [Live Demo](https://post-cloning-demo-site.netlify.app) |
 
 | [Meditation App](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Assignment/Meditation%20App) | A meditation app that allows u to make ur soul relax (HTML n CSS n JAVASCRIPT) | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Assignment/Meditation%20App/index.html) |
