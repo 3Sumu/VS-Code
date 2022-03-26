@@ -85,6 +85,12 @@ function checkWinner() {
       cell3.style.backgroundColor = "green";
       break;
     }
+    if (i == winningSequences.length) {
+      showMessage(`Match Draw!`);
+      setTimeout(() => {
+        location.reload();
+      }, 4000);
+    }
   }
   return winnerBool;
 }
