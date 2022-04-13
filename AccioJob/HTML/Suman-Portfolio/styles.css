@@ -167,6 +167,25 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.5rem;
 }
+.download{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.download-btn{
+  background-color: DodgerBlue;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+.download-btn a{
+  color: #fff;
+}
+.download-btn:hover {
+  background-color: RoyalBlue;
+}
 
 @media screen and (max-width: 420px) {
   .more-about h2 {
@@ -233,13 +252,15 @@ nav ul li {
   padding: 32px 0;
 }
 .project-pic {
-  width: 200px;
-  height: 150px;
+  width: 310px;
+  height: 180px;
+  /* padding: .5px .5px; */
 }
 .projects-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .projects-title {
   text-align: center;
@@ -248,7 +269,9 @@ nav ul li {
 .project-container {
   text-align: center;
   width: 21.5rem;
+  height: 23rem;
   padding: 1rem;
+  position: relative;
 }
 .project-container p {
   padding: 0.4rem 0;
@@ -267,6 +290,9 @@ nav ul li {
   border-style: dotted;
   padding: 5px;
   border-radius: 20px;
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
 }
 
 @media screen and (max-width: 420px) {
