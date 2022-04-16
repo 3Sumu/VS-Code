@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    display: grid;
+    width: 600px;
+    height: 500px;
+    grid-template-columns: auto auto auto;
+}
+
+.button .btn{
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    /* font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
