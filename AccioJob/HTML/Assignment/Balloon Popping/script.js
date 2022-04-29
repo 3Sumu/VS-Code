@@ -13,7 +13,10 @@ for (let i = 1; i <= numBalloons; i++) {
   console.log("pop");
 
   dvEl.addEventListener("mouseenter", () => {
-    if (dvEl.style.backgroundColor !== "transparent") popped++;
+    if (dvEl.style.backgroundColor !== "transparent") {
+      console.log("popped");
+      popped++;
+    }
     dvEl.style.backgroundColor = "transparent";
     checkAllPopped();
   });
