@@ -692,3 +692,93 @@ footer .copyright {
   text-align: start;
 }
 }
+
+
+/* Shop Page */
+#page-header{
+  background-image: url("./img/banner/b1.jpg");
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px;
+  background-size: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+}
+#page-header h2,
+#page-header p{
+  color: white;
+}
+#page-header p{
+  font-size: 18px;
+}
+#pagination{
+text-align: center;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  /* margin-left: 8px; */
+}
+#pagination a i{
+  font-size: 16px;
+
+}
+
+
+/* Single product */
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
+#prodetails .single-pro-image{
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+#prodetails .single-pro-details{
+width: 50%;
+padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+  padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+  font-size: 36px;
+}
+#prodetails .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom:10px;
+}
+#prodetails .single-pro-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 15px;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+}
+#prodetails .single-pro-details button{
+  color: #fff;
+  background-color: #088178;
+}
+#prodetails .single-pro-details span{
+  line-height: 25px;
+}
