@@ -35,12 +35,12 @@ i:hover{
     text-shadow: 0 0 120px #0f0;
 }
 
-section .row div{
-    animation: animate1 80s linear infinite;
+/* .row div{
+    animation: animate1 10s linear infinite;
     animation-delay: -80s;
 }
-section .row div:nth-child(2){
-    animation: animate2 80s linear infinite;
+.row div:nth-child(2){
+    animation: animate2 10s linear infinite;
     animation-delay: -40s;
 }
 @keyframes animate1{
@@ -58,30 +58,32 @@ section .row div:nth-child(2){
     100%{
         transform: translateX(-200%);
     }
-}
+} */
 
 
-section .row:nth-child(even) div{
-    animation: animate3 80s linear infinite;
-    animation-delay: -80s;
+section .row div:nth-child(odd){
+    animation: animate3 1.5s linear infinite;
+    transition: 0s ease;
+    /* animation-delay: -80s; */
 }
-section .row:nth-child(even) div:nth-child(2){
-    animation: animate4 80s linear infinite;
-    animation-delay: -40s;
+section .row div:nth-child(even){
+    animation: animate4 1.5s linear infinite;
+    transition: 0s ease;
+    /* animation-delay: -40s; */
 }
 @keyframes animate3{
     0%{
-        transform: translateX(-100%);
+        transform: translateX(-35%);
     }
     100%{
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
 }
 @keyframes animate4{
     0%{
-        transform: translateX(-200%);
+        transform: translateX(0%);
     }
     100%{
-        transform: translateX(0);
+        transform: translateX(-35%);
     }
 }
