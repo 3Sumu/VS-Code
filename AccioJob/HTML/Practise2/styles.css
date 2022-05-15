@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.task{
+    margin: 5em 25em;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+.task .input{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task .input input{
+    width: 300px;
+    font-size: 30px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+.task .input button{
+    width: 150px;
+    font-size: 30px;
+    padding: 5px 5px;
+}
+.task .list{
+    height: 350px;
+    color: white;
+    text-align: center;
+}
+.item{
+    font-size: 35px;
+}
