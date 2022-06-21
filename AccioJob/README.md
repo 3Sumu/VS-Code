@@ -6,13 +6,13 @@ Samll projects r made during on going training sessions.
 
 The projects discussed in this repo are taken from various sources and the rights to them belongs to their respective owners only. This repo is just a way for practise and learn web technologies like HTML, CSS, Bootstrap and Javascript.
 
-|                                                                 Name                                                                 | Description                                                 | Live Demo                                                                                                       |
-| :----------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-|      [Photo Border Animation](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Animations/Photo%20Border%20Animation)      | Portfolio to showcase the frontend development (Vanilla JS) | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Animations/Photo%20Border%20Animation/main.html)      |
-| [Fontawesome Icon Background](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Animations/Fontawesome%20Icon%20Background) | Portfolio to showcase the frontend development (Vanilla JS) | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Animations/Fontawesome%20Icon%20Background/main.html) |
+|                                                                 Name                                                                 | Description           | Live Demo                                                                                                       |
+| :----------------------------------------------------------------------------------------------------------------------------------: | --------------------- | --------------------------------------------------------------------------------------------------------------- |
+|      [Photo Border Animation](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Animations/Photo%20Border%20Animation)      | Animation to projects | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Animations/Photo%20Border%20Animation/main.html)      |
+| [Fontawesome Icon Background](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Animations/Fontawesome%20Icon%20Background) | Animation to projects | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Animations/Fontawesome%20Icon%20Background/main.html) |
 
 |
-| [Something Satisfying](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Animations/Fontawesome%20Icon%20Background) | Portfolio to showcase the frontend development (Vanilla JS) | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Animations/Fontawesome%20Icon%20Background/main.html) |
+| [Something Satisfying]() | Animation to projects | [Live Demo]() |
 |  
 :---------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
 | [Suman Portfolio](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Suman-Portfolio) | Portfolio to showcase the frontend development (Vanilla JS) | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Suman-Portfolio/main.html#projects) |
