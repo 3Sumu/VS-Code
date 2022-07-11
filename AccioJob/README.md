@@ -13,8 +13,6 @@ The projects discussed in this repo are taken from various sources and the right
 
 |
 | [Something Satisfying]() | Animation to projects | [Live Demo]() |
-|  
-:---------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
 | [Suman Portfolio](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Suman-Portfolio) | Portfolio to showcase the frontend development (Vanilla JS) | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Suman-Portfolio/main.html#projects) |
 | [Animal Photos](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Assignment/Animals%20Assignment%205) | A grid like structure to show few animal photos. (HTML, CSS) | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Assignment/Animals%20Assignment%205/Animal.html) |
 | [CSS Styled Boxes](https://github.com/3Sumu/VS-Code/tree/master/AccioJob/HTML/Assignment/Boxes%20Asssignment%204) | Boxes align in evenly space manner using 'float' property. (HTML,CSS) | [Live Demo](https://3sumu.github.io/VS-Code/AccioJob/HTML/Assignment/Boxes%20Asssignment%204/Boxes.html) |
